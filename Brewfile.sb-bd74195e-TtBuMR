@@ -1,0 +1,40 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+brew "archey"
+brew "awscli"
+brew "mas"
+brew "cask"
+brew "git"
+brew "go"
+brew "imagemagick"
+brew "jq"
+brew "mysql@5.7", restart_service: true
+brew "node"
+brew "postgresql", restart_service: true
+brew "elixir"
+brew "speedtest-cli"
+brew "tree"
+brew "wget"
+brew "z"
+brew "exercism"
+cask "app-cleaner"
+cask "imageoptim"
+cask "transmit"
+cask "google-chrome"
+cask "dropbox"
+cask "alfred"
+cask "brave-browser"
+cask "firefox"
+cask "slack"
+cask "spotify"
+cask "iterm2"
+cask "goland"
+
+# App Store
+mas "1Password 7", id: 1333542190
+mas "Spark", id: 1176895641
+mas "Todoist", id: 585829637
+mas "Paprika Recipe Manager 3", id: 1303222628
+mas "Bear", id: 1091189122
