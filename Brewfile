@@ -18,6 +18,7 @@ brew "node"
 brew "postgresql", restart_service: true
 brew "elixir"
 brew "speedtest-cli"
+brew "exa"
 brew "tree"
 brew "wget"
 brew 'svn'
