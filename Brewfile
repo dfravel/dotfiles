@@ -81,4 +81,6 @@ mas "Todoist", id: 585829637
 mas "Paprika Recipe Manager 3", id: 1303222628
 mas "Bear", id: 1091189122
 mas "BetterSnapTool", id: 417375580
+mas "Twitter", id: 1482454543
+
 
