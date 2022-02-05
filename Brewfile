@@ -29,6 +29,7 @@ brew "spaceship"
 brew "exercism"
 brew "composer"
 brew "php@7.4"
+brew "aws-rotate-iam-keys"
 cask "app-cleaner"
 cask "imageoptim"
 cask "transmit"
@@ -41,12 +42,12 @@ cask "slack"
 cask "spotify"
 cask "iterm2"
 cask "goland"
+cask "webstorm"
 cask "postman"
 cask "visual-studio-code"
 cask "tableplus"
 cask "git-credential-manager-core"
 cask "zoom"
-cask "setapp"
 cask "fantastical"
 cask "oktadeveloper/tap/okta"
 
@@ -82,5 +83,5 @@ mas "Paprika Recipe Manager 3", id: 1303222628
 mas "Bear", id: 1091189122
 mas "BetterSnapTool", id: 417375580
 mas "Twitter", id: 1482454543
-
+mas "Drafts", id: 1236254471
 
