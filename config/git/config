@@ -1,0 +1,39 @@
+[user]
+	name = Dave Fravel
+	email = dave@bluegear.io
+
+[github]
+	user = dfravel
+
+[core]
+	excludesfile = ~/.config/git/ignore
+	editor = code --wait
+	filemode = false
+	trustctime = false
+	autocrlf = input
+	untrackedCache = true
+	pager = diff-so-fancy | less --tabs=4 -RFX
+	ignorecase = false
+
+[credential]
+	helper = osxkeychain
+
+[pull]
+	rebase = true
+
+[init]
+	defaultBranch = main
+
+[push]
+	default = simple
+	followTags = true
+    autoSetupRemote = true
+
+[fetch]
+	prune = true
+
+[grep]
+	lineNumber = true
+
+[help]
+	autocorrect = 1

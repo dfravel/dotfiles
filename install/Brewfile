@@ -1,0 +1,36 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "microsoft/git"
+brew "archey4"
+brew "lotyp/formulae/dockutil"
+brew "mas"
+brew "cask"
+brew "duti"
+brew "coreutils"
+brew "imagemagick"
+brew "ffmpeg"
+brew "uni"
+brew "webp"
+brew "jq"
+brew "node"
+brew "speedtest-cli"
+brew "tree"
+brew "wget"
+brew 'nvm'
+brew 'trash' 
+brew "n"
+brew "z"
+brew "spaceship"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+
+
+# App Store
+mas "1Password 7", id: 1333542190
+mas "BetterSnapTool", id: 417375580
+
+# Remove outdated versions from the cellar.
+brew cleanup
+
