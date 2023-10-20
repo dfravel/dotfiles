@@ -1,7 +1,7 @@
 SHELL = /bin/bash
 DOTFILES_DIR := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 OS = macos
-HOMEBREW_PREFIX = /usr/local
+HOMEBREW_PREFIX = /opt/homebrew /usr/local
 export N_PREFIX = $(HOME)/.n
 PATH := $(HOMEBREW_PREFIX)/bin:$(DOTFILES_DIR)/bin:$(N_PREFIX)/bin:$(PATH)
 SHELLS := /private/etc/shells
