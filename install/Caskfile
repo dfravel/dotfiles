@@ -15,6 +15,7 @@ cask "spotify"
 cask "visual-studio-code"
 cask "arc"
 cask "vlc"
+cask "zoom"
 
 # Quicklook
 cask 'qlmarkdown'
