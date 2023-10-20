@@ -19,7 +19,7 @@ brew "speedtest-cli"
 brew "tree"
 brew "wget"
 brew 'nvm'
-brew 'trash' 
+brew 'trash'
 brew "n"
 brew "z"
 brew "spaceship"
@@ -27,10 +27,4 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
 
-# App Store
-mas "1Password 7", id: 1333542190
-mas "BetterSnapTool", id: 417375580
-
-# Remove outdated versions from the cellar.
-brew cleanup
 
