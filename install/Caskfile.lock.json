@@ -1,0 +1,188 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/cask-fonts": {
+        "revision": "c9413d8bc7e4a716c46d0bb5ecd6bada727bae86"
+      },
+      "homebrew/cask-versions": {
+        "revision": "093132aaf1e441d043d787b55648ea85589a6b6a"
+      }
+    },
+    "cask": {
+      "docker": {
+        "version": "4.24.2,124339",
+        "options": {
+          "full_name": "docker"
+        }
+      },
+      "dropbox": {
+        "version": "185.4.6054",
+        "options": {
+          "full_name": "dropbox"
+        }
+      },
+      "fantastical": {
+        "version": "3.8.5",
+        "options": {
+          "full_name": "fantastical"
+        }
+      },
+      "hammerspoon": {
+        "version": "0.9.100",
+        "options": {
+          "full_name": "hammerspoon"
+        }
+      },
+      "iterm2": {
+        "version": "3.4.21",
+        "options": {
+          "full_name": "iterm2"
+        }
+      },
+      "maccy": {
+        "version": "0.27.1",
+        "options": {
+          "full_name": "maccy"
+        }
+      },
+      "postman": {
+        "version": "10.19.7",
+        "options": {
+          "full_name": "postman"
+        }
+      },
+      "raycast": {
+        "version": "1.60.1",
+        "options": {
+          "full_name": "raycast"
+        }
+      },
+      "slack": {
+        "version": "4.34.121",
+        "options": {
+          "full_name": "slack"
+        }
+      },
+      "sourcetree": {
+        "version": "4.2.5,259",
+        "options": {
+          "full_name": "sourcetree"
+        }
+      },
+      "spotify": {
+        "version": "1.2.22.982,794acc0a,915",
+        "options": {
+          "full_name": "spotify"
+        }
+      },
+      "visual-studio-code": {
+        "version": "1.83.1",
+        "options": {
+          "full_name": "visual-studio-code"
+        }
+      },
+      "arc": {
+        "version": "1.13.1,42579",
+        "options": {
+          "full_name": "arc"
+        }
+      },
+      "vlc": {
+        "version": "3.0.19",
+        "options": {
+          "full_name": "vlc"
+        }
+      },
+      "zoom": {
+        "version": "5.16.2.23409",
+        "options": {
+          "full_name": "zoom"
+        }
+      },
+      "qlmarkdown": {
+        "version": "1.0.17",
+        "options": {
+          "full_name": "qlmarkdown"
+        }
+      },
+      "quicklook-json": {
+        "version": "2,1.0",
+        "options": {
+          "full_name": "quicklook-json"
+        }
+      },
+      "font-hack": {
+        "version": "3.003",
+        "options": {
+          "full_name": "font-hack"
+        }
+      },
+      "font-lato": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-lato"
+        }
+      },
+      "font-open-sans": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-open-sans"
+        }
+      },
+      "font-roboto": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-roboto"
+        }
+      },
+      "font-source-code-pro-for-powerline": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-source-code-pro-for-powerline"
+        }
+      },
+      "font-source-code-pro": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-source-code-pro"
+        }
+      },
+      "font-consolas-for-powerline": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-consolas-for-powerline"
+        }
+      },
+      "font-fira-code": {
+        "version": "6.2",
+        "options": {
+          "full_name": "font-fira-code"
+        }
+      },
+      "font-roboto-mono": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-roboto-mono"
+        }
+      },
+      "font-roboto-mono-for-powerline": {
+        "version": "latest",
+        "options": {
+          "full_name": "font-roboto-mono-for-powerline"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "sonoma": {
+        "HOMEBREW_VERSION": "4.1.16",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "api",
+        "CLT": "15.0.0.0.1.1694021235",
+        "Xcode": "15.0",
+        "macOS": "14.0"
+      }
+    }
+  }
+}

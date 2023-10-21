@@ -1,4 +1,4 @@
-COMPUTER_NAME="Neo"
+COMPUTER_NAME="akkio-dave"
 LANGUAGES=(en)
 LOCALE="en_US@currency=USD"
 MEASUREMENT_UNITS="Inches"

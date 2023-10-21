@@ -1,6 +1,5 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
-export PATH="/Applications/WebStorm.app/Contents/MacOS:$PATH"
 export PATH="/usr/local/opt/krb5/bin:$PATH"
 
 export EDITOR="code"
@@ -17,7 +16,7 @@ autoload -U +X bashcompinit && bashcompinit
 ZSH_DISABLE_COMPFIX=true
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/dfravel/.oh-my-zsh"
+export ZSH="/Users/davefravel/.oh-my-zsh"
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
@@ -71,7 +70,7 @@ startuparchy
 # export PATH="/usr/local/opt/php@7.4/bin:$PATH"
 # export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
 
-# no longer need MySQL 
+# no longer need MySQL
 # export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
 # no longer doing any work with Go

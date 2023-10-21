@@ -1,0 +1,96 @@
+LS_COLORIZED=$(is-supported "ls --color" --color -G)
+LS_TIMESTYLEISO=$(is-supported "ls --time-style=long-iso" --time-style=long-iso)
+LS_GROUPDIRSFIRST=$(is-supported "ls --group-directories-first" --group-directories-first)
+
+alias l="ls -lahA $LS_COLORIZED $LS_TIMESTYLEISO $LS_GROUPDIRSFIRST"
+alias ll="ls -lA $LS_COLORIZED"
+alias lt="ls -lhAtr $LS_COLORIZED $LS_TIMESTYLEISO $LS_GROUPDIRSFIRST"
+alias ld="ls -ld $LS_COLORIZED */"
+alias lp="stat -c '%a %n' *"
+
+unset LS_COLORIZED LS_TIMESTYLEISO LS_GROUPDIRSFIRST
+
+
+####################################
+# quick shortcuts for common tasks
+####################################
+alias c='clear'
+alias zshconfig="code ~/.zshrc"
+alias aliases="code ~/.aliases"
+alias reload="source ~/.zshrc"
+alias gl='open -na "Goland.app"'
+alias brewup="brew update; brew upgrade; brew prune; brew cleanup; brew doctor"
+alias sshconfig="code ~/.ssh/config"
+alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
+alias hosts="code /etc/hosts"
+alias ws='open -na "Webstorm.app"'
+alias rotate='aws-rotate-iam-keys --profile default'
+alias t='tree -L 1 -C -h'
+alias zz='open -na "Webstorm.app" ~/Projects/zengines/zengines-web-ui'
+
+####################################
+# JS
+####################################
+alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
+alias watch="npm run watch"
+alias dev="npm run dev"
+alias build="npm run build"
+
+
+####################################
+# finder navigation and shortcuts
+####################################
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias p="cd ~/Projects"
+alias ll='ls -lhA'
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias -- -="cd -"
+
+
+####################################
+# files
+####################################
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+alias showNodeModules='find . -name "node_modules" -type d -prune | xargs du -chs'
+alias killNodeModules='find . -name "node_modules" -type d -prune -exec rm -rf '{}' +'
+# Recursively remove .DS_Store files
+alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
+# make a new directory and move into it
+function mcd() {
+    mkdir -p $1
+    cd $1
+}
+
+
+####################################
+# network-related aliases
+####################################
+alias publicip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias flush="sudo killall -HUP mDNSResponder; sleep 2; echo macOS DNS Cache Reset | say"
+alias myip="curl http://ipecho.net/plain; echo"
+alias ping='ping -c 5'
+
+
+####################################
+# git-specific functions and aliases
+####################################
+alias gs="git status"
+alias wipit="git add . && git commit -m 'WIP' && git push;say whip it real good"
+function gpa() {
+    git add .
+    git commit -a -m "$1"
+    git push
+}
+
+
+####################################
+# spotlight
+####################################
+alias spotoff="sudo mdutil -a -i off"
+alias spoton="sudo mdutil -a -i on"
+
